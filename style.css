@@ -596,11 +596,49 @@ footer span a:hover{
     text-decoration: underline;
 }
 
-.prices .title::after,
+.pricing, .teams{
+    color:#fff;
+background-image: url(images/img-hero-bg.jpg);
+}
+.pricing .title::before,
+.teams .title::before{
+    background: #fff;
+}
+.pricing .title::after,
 .teams .title::after{
     background: #111;
-    content: "our prices";
+    content: "what we provide";
 }
+.pricing .pric-content .card{
+    width: calc(103% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.pricing .pric-content .card:hover{
+    background: crimson;
+}
+.pricing .pric-content .card .box{
+    transition: all 0.3s ease;
+}
+.pricing .pric-content .card:hover .box{
+    transform: scale(1.05);
+}
+.pricing .pric-content .card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.pricing .pric-content .card:hover i{
+    color: #fff;
+}
+.pricing .pric-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
 
 
 /* responsive media query start */
