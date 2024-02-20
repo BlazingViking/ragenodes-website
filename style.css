@@ -668,14 +668,19 @@ footer span a:hover{
 .pricing-content .right .mysql::before{
     width: 70%;
 }
+
 .pricing-content .column .plan-box {
-    background: #fff;
+    background: #222;
     border: 2px solid crimson;
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
     text-align: center;
+    color: #fff;
     transition: transform 0.3s ease;
+    width: 100%;
+    max-width: 300px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the boxes */
 }
 
 .pricing-content .column .plan-box:hover {
