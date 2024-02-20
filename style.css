@@ -596,7 +596,78 @@ footer span a:hover{
     text-decoration: underline;
 }
 
-
+.pricing .title::after{
+    content: "what we know";
+}
+.pricing .pricing-content .column{
+    width: calc(50% - 30px);
+}
+.pricing .pricing-content .left .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.pricing .pricing-content .left p{
+    text-align: justify;
+}
+.pricing .pricing-content .left a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.pricing .pricing-content .left a:hover{
+    color: crimson;
+    background: none;
+}
+.pricing .pricing-content .right .bars{
+    margin-bottom: 15px;
+}
+.pricing .pricing-content .right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.pricing .pricing-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.pricing .pricing-content .right .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+.pricing .pricing-content .right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: crimson;
+}
+.pricing-content .right .html::before{
+    width: 90%;
+}
+.pricing-content .right .css::before{
+    width: 60%;
+}
+.pricing-content .right .js::before{
+    width: 80%;
+}
+.pricing-content .right .php::before{
+    width: 50%;
+}
+.pricing-content .right .mysql::before{
+    width: 70%;
+}
 
 
 /* responsive media query start */
