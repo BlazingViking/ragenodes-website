@@ -668,6 +668,31 @@ footer span a:hover{
 .pricing-content .right .mysql::before{
     width: 70%;
 }
+.pricing-content .column .plan-box {
+    background: #fff;
+    border: 2px solid crimson;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.pricing-content .column .plan-box:hover {
+    transform: scale(1.05);
+}
+
+.pricing-content .column .plan-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.pricing-content .column .plan-price {
+    font-size: 24px;
+    font-weight: 700;
+    color: crimson;
+}
 
 
 /* responsive media query start */
